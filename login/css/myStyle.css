@@ -1,0 +1,35 @@
+.logo{
+    display:block;
+    padding:10px;
+    margin-left: 20px;
+    margin-top: 25px;
+    font-size: 30px;
+}
+
+#username, #password{
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-radius: 3px;
+    width: 250px;
+}
+.username{
+    display:block;
+}
+.password{
+    display:block;
+    margin-left: 4px;
+}
+.row1{
+    margin-top: 50px;
+}
+#loginBtn{
+    margin: 30px;
+    width: 100px;
+}
+.nav-row{
+    border: 1px solid grey;
+    padding-bottom: 20px;
+}
+
