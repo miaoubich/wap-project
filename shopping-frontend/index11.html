@@ -74,35 +74,24 @@
         <div style="padding-top: 1em;" class="container">
             <!-- main content here -->
             <h3>
-                My Shpping Cart
+                Your Shpping Cart
             </h3>
             <hr>
 
-            <div class="products-container" style="max-width: 650px;
-                                                    justify-content: space-around;
-                                                    margin-top: 50px;
-                                                    display: flex;
-                                                    flex-wrap: wrap;
-                                                    padding-bottom: 10px;">
-                <div class="product-header" style="width: 100px;
-                                                    max-width: 650px;
-                                                    display: flex;
-                                                    justify-content: flex-start;
-                                                    margin: 0 auto;">
-                    <h5 class="product-name" style="width: 45%;border-bottom: 4px solid lightgrey;">Name</h5>
-                    <h5 class="price" style="padding-left:150px;border-bottom: 4px solid lightgrey;">Price</h5>
-                    <h5 class="total" style="padding-left:100px;border-bottom: 4px solid lightgrey;">Total</h5>
-                    <h5 class="quantity" style="padding-left:150px;border-bottom: 4px solid lightgrey;">Quantity</h5>
-                </div>
-            </div>
-            <div class="products" style="max-width: 650px;
-                                        justify-content: space-around;
-                                        display: flex;
-                                        flex-wrap: wrap;
-                                        padding-bottom: 100px;
-                                        margin: 0 auto;
-                                        padding-left: 45px;">
+            <div style="margin-top: 1em;" id="divPatientsList" style="font-size: 1em">
+                <table class="table table-striped" id="mytable">
+                    <thead>
+                        <tr>
+                            <th scope="col">Name</th>
+                            <th scope="col">Price</th>
+                            <th scope="col">Total</th>
+                            <th scope="col">Quantity</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tbodyProductCartList">
 
+                    </tbody>
+                </table>
             </div>
         </div>
     </main>
@@ -116,9 +105,6 @@
         </div>
     </footer>
     <!-- <script src="./js/main.js"></script> -->
-    <script src="./js/table.js"></script>
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <!-- <script src="./js/browse.js"></script> -->
 </body>
 

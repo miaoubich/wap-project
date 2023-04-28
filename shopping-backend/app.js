@@ -1,13 +1,14 @@
-const express = require('express');
-const productRouter = require('./routes/productRouter');
-// const loginRouter = require('./routes/loginRouter')
-const cors = require('cors');
+const express = require("express");
+const productRouter = require("./routes/productRouter");
+const loginRouter = require("./routes/loginRouter");
+const cors = require("cors");
 
 const app = express();
-app.use(express.json());
+
 app.use(cors());
+app.use(express.json());
 
-app.use('/products', productRouter);
-// app.use('/login', loginRouter);
+app.use("/login", loginRouter);
+app.use("/products", productRouter);
 
-app.listen(3000, ()=>console.log('listen on 3000'));
+app.listen(3000, () => console.log("listen on 3000"));

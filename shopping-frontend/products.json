@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Apple",
+        "price": 2,
+        "image": "images/apple.png",
+        "stock": 100,
+        "inCart": 0
+    },
+    {
+        "name": "Banana",
+        "price": 4,
+        "image": "images/banana.png",
+        "stock": 200,
+        "inCart": 0
+    },
+    {
+        "name": "Lemon",
+        "price": 3,
+        "image": "images/lemon.png",
+        "stock": 456,
+        "inCart": 0
+    },
+    {
+        "name": "Kiwi",
+        "price": 10,
+        "image": "images/kiwi.png",
+        "stock": 258,
+        "inCart": 0
+    }
+]
